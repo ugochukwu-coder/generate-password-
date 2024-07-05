@@ -1,0 +1,102 @@
+
+html{
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+  background-color:#E5E5E5;
+}
+
+.container {
+  max-width: 50rem;
+  background-color: #1F2937;
+  padding: 5rem 3rem;
+  margin: 0 auto;
+  border: 3px solid white;
+  border-radius: 20px;
+
+  padding: 5rem 4rem;
+
+  @media only screen and (max-width: 600px) {
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+.heading {
+  font-family: "Karla", sans-serif;
+  color: white;
+  font-size: 4rem;
+  margin-bottom:0;
+
+  @media only screen and (max-width: 550px) {
+    font-size: 3rem;
+  }
+
+
+
+}
+
+.heading__span {
+  color: #4ADF86;
+
+
+}
+
+.paragraph {
+  font-family: inter;
+  color: #D5D4D8;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 5rem;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 1rem;
+  }
+}
+
+#btn__generate {
+  font-family: inherit;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #4ADF86;
+  color: #FFFFFF;
+  margin-bottom: 3rem;
+
+}
+
+.password {
+  border-top: 1px solid #2F3E53;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  
+}
+
+.input__password {
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+  padding: 1.5rem 11rem;
+  background-color: #273549;
+  color: #4ADF86;
+  border: none;
+  border-radius:1rem ;
+
+
+}
