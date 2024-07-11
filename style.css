@@ -75,10 +75,14 @@ body {
 
 .password {
   border-top: 1px solid #2F3E53;
+  text-align: center;
   padding: 3rem 0;
+ 
   display: flex;
   justify-content: space-between;
   align-items:center;
+  gap: 50px;
+ 
 
   @media only screen and (max-width: 600px) {
     flex-direction: column;
@@ -88,15 +92,12 @@ body {
 }
 
 .input__password {
-  width: 1.5rem;
-  height: 1.5rem;
-  text-align: center;
-  line-height: 1.5;
-  padding: 1.5rem 11rem;
+  height: 1rem;
+  flex: 1;
+  font-size: 15px;
+  padding: 10px 15px;
   background-color: #273549;
   color: #4ADF86;
   border: none;
   border-radius:1rem ;
-
-
 }
